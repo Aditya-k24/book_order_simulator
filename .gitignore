@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+*.o
+*.so
+*.dylib
+*.exe
+order_book_simulator
+
+# Data files
+*.csv
+*.log
+*.txt
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Analysis output
+analysis_output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp
