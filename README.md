@@ -80,10 +80,13 @@ This project implements a complete trading infrastructure including:
 
 ```bash
 # Clone and build
-git clone <repository-url>
-cd order_book_simulator
+git clone https://github.com/Aditya-k24/book_order_simulator.git
+cd book_order_simulator
 
-# Build with optimizations
+# Quick installation (recommended)
+./install.sh
+
+# Manual build with optimizations
 make
 
 # Or build with debug symbols
