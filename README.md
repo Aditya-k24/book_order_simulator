@@ -94,6 +94,9 @@ make CXXFLAGS="-std=c++17 -Wall -Wextra -g -O0 -DDEBUG"
 ### Running the Simulator
 
 ```bash
+# Quick demo (recommended for first-time users)
+./demo.sh
+
 # Basic simulation (100K orders, 4 threads)
 ./order_book_simulator
 
@@ -108,6 +111,9 @@ make CXXFLAGS="-std=c++17 -Wall -Wextra -g -O0 -DDEBUG"
 
 # Disable logging for maximum performance
 ./order_book_simulator --no-csv --no-perf
+
+# Run tests to verify everything works
+./run_tests.sh
 ```
 
 ### Available Options

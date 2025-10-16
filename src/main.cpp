@@ -3,6 +3,7 @@
  * @brief Low-Latency Order Book Simulator - Main Entry Point
  * @author Trading Systems Engineer
  * @date 2024
+ * @version 1.0.0
  * 
  * Demonstrates high-frequency trading infrastructure capabilities
  * with microsecond-level latency measurement and concurrent processing.
@@ -373,6 +374,7 @@ int main(int argc, char* argv[]) {
     std::cout << "==========================================" << std::endl;
     std::cout << "  Low-Latency Order Book Simulator" << std::endl;
     std::cout << "  High-Frequency Trading Infrastructure" << std::endl;
+    std::cout << "  Version 1.0.0" << std::endl;
     std::cout << "==========================================" << std::endl;
     
     try {
